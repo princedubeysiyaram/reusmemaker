@@ -1,0 +1,115 @@
+#root {
+  --primary: #9f5bff;
+      --primary-foreground: #fff;
+      --secondary: #E5E7F9;
+      --secondary-foreground: #9f5bff;
+
+}
+
+.primary-bg {
+  border: 2px solid #4b33ff;
+  padding: 10px;
+}
+#for button
+.btn-primary {
+  --primary: #9f5bff;
+  --primary-foreground: #fff;
+  --secondary: #E5E7F9;
+  --secondary-foreground: #9f5bff;
+  
+  
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #66ffbaaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+
+
+
+
+
+
+
+/* src/components/ThemeColor.css */
+
+.theme-color-container {
+  position: relative;
+  display: inline-block;
+}
+
+.theme-button {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  background: white;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.popover {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  z-index: 100;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.color-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 24px);
+  gap: 8px;
+}
+
+.color-circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid #999;
+  transition: transform 0.2s ease;
+}
+
+.color-circle:hover {
+  transform: scale(1.1);
+  border-color: black;
+}
